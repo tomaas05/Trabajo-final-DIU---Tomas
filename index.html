@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EcoMercado UGR — Mercado agroecológico universitario. Productores locales, productos de temporada. Campus Fuentenueva, Granada." />
+  <title>EcoMercado UGR — Mercado Agroecológico Universitario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <div class="next-edition-banner" role="status" aria-label="Próxima edición">
+    <strong>Próxima edición: sábado 14 de junio, 9:00–14:00 h</strong> — Campus Fuentenueva, Granada.
+    <a href="#mercados">Ver detalles →</a>
+  </div>
+
+  <nav class="nav" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand" aria-label="EcoMercado UGR — Inicio">
+        <img class="nav-logo" src="img/logo-ecomercado.png" alt="" aria-hidden="true" width="32" height="32" onerror="this.style.display='none'" />
+        <!-- img/logo-ecomercado.png : logotipo EcoMercado UGR sobre fondo transparente, formato cuadrado -->
+        <span><span class="eco">Eco</span>Mercado UGR</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú">☰</button>
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#mercados">Mercados</a></li>
+        <li><a href="#como-funciona">Cómo funciona</a></li>
+        <li><a href="#productores">Productores</a></li>
+        <li><a href="#temporada">Temporada</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#unete">Únete</a></li>
+        <li><a href="#unete" class="btn btn-sm btn-primary nav-cta" aria-label="Ir al formulario de pedido">Hacer mi pedido</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="main-content" tabindex="-1">
+    <img class="hero-bg-img" src="img/hero-mercado.jpg" alt="" aria-hidden="true" onerror="this.style.display='none'" />
+    <!-- img/hero-mercado.jpg : fotografía panorámica del mercado en el campus, puestos con producto fresco, ambiente soleado de mañana. Formato 16:9, mínimo 1400px ancho -->
+    <div class="hero-inner">
+      <div class="hero-eyebrow" aria-label="Iniciativa universitaria">
+        <img src="img/logo-ugr-blanco.png" alt="" aria-hidden="true" width="20" height="20" onerror="this.style.display='none'" />
+        <!-- img/logo-ugr-blanco.png : escudo UGR en versión blanca/negativa, PNG transparente -->
+        Iniciativa agroecológica de la Universidad de Granada
+      </div>
+      <h1 class="hero-title">El mercado de <em>productores locales</em> en tu campus</h1>
+      <p class="hero-subtitle">Fruta y verdura ecológica, quesos artesanos, pan, miel y mucho más, directamente del productor al consumidor. Cada sábado en el Campus Fuentenueva.</p>
+      <div class="hero-info-strip" aria-label="Información rápida del mercado">
+        <div class="hero-info-chip">
+          <span class="chip-icon" aria-hidden="true">📅</span>
+          <div><strong>Cada sábado</strong><span>9:00 – 14:00 h</span></div>
+        </div>
+        <div class="hero-info-chip">
+          <span class="chip-icon" aria-hidden="true">📍</span>
+          <div><strong>Dónde</strong><span>Paseíllos Universitarios, Campus Fuentenueva</span></div>
+        </div>
+        <div class="hero-info-chip">
+          <span class="chip-icon" aria-hidden="true">🧺</span>
+          <div><strong>Pedidos anticipados</strong><span>Hasta el viernes 20:00 h</span></div>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <a href="#mercados" class="btn btn-primary">Ver mercados y hacer mi pedido</a>
+        <a href="#como-funciona" class="btn btn-outline-white">¿Cómo funciona?</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- CÓMO FUNCIONA -->
+    <section class="section section-alt" id="como-funciona" aria-labelledby="funciona-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Empieza aquí</span>
+          <h2 class="section-title" id="funciona-title">¿Primera vez en el EcoMercado?</h2>
+          <p class="section-desc">En cuatro pasos tienes productos ecológicos frescos cada semana.</p>
+        </header>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">1</div>
+            <h3 class="step-title">Elige tu mercado</h3>
+            <p class="step-desc">Localiza el punto de venta más cercano entre los mercados disponibles en el entorno universitario de Granada.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">2</div>
+            <h3 class="step-title">Haz tu pedido anticipado</h3>
+            <p class="step-desc">Antes del viernes a las 20:00 h envía tu pedido directamente al productor. Sin intermediarios ni cuotas.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">3</div>
+            <h3 class="step-title">Recoge el sábado</h3>
+            <p class="step-desc">Pásate entre las 9:00 y las 14:00 h a recoger tu pedido y descubrir nuevos productos de temporada.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number" aria-hidden="true">4</div>
+            <h3 class="step-title">Únete al grupo</h3>
+            <p class="step-desc">Cada mercado tiene su grupo de Telegram o WhatsApp con novedades, cancelaciones y productos especiales de cada semana.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MERCADOS -->
+    <section class="section" id="mercados" aria-labelledby="mercados-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Dónde encontrarnos</span>
+          <h2 class="section-title" id="mercados-title">Mercados activos</h2>
+          <p class="section-desc">Cada tarjeta incluye ubicación, horario y acceso directo para hacer tu pedido o contactar.</p>
+        </header>
+        <div class="markets-filter" role="group" aria-label="Filtrar mercados por día o zona">
+          <span class="filter-label">Filtrar por:</span>
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">Todos</button>
+          <button class="filter-btn" data-filter="sabado" aria-pressed="false">Sábado</button>
+          <button class="filter-btn" data-filter="intersemanal" aria-pressed="false">Intersemanal</button>
+          <button class="filter-btn" data-filter="centro" aria-pressed="false">Centro ciudad</button>
+          <button class="filter-btn" data-filter="campus" aria-pressed="false">Campus UGR</button>
+        </div>
+        <div class="markets-grid" id="markets-grid" aria-live="polite" aria-label="Lista de mercados">
+
+          <article class="market-card" data-tags="sabado campus" aria-labelledby="market-1-name">
+            <div class="market-card-img">
+              <img src="img/mercado-campus.jpg" alt="Puestos con verduras y frutas ecológicas en los Paseíllos Universitarios del Campus Fuentenueva" loading="lazy" width="600" height="200" />
+              <!-- img/mercado-campus.jpg : foto del mercado en los paseíllos del campus, puestos al aire libre con producto fresco, árboles universitarios al fondo, luz de mañana. Formato 3:1 -->
+              <div class="market-badge" aria-label="Horario: sábados de 9 a 14 h">📅 Sábados 9:00–14:00 h</div>
+            </div>
+            <div class="market-card-body">
+              <h3 class="market-card-name" id="market-1-name">EcoMercado UGR</h3>
+              <p class="market-card-location"><span aria-hidden="true">📍</span><span>Paseíllos Universitarios, Campus Fuentenueva</span></p>
+              <p class="market-card-products">Verdura y fruta ecológica de temporada, huevos, pan artesano, quesos, aceite de oliva virgen extra y conservas de productores de la comarca de Granada.</p>
+              <div class="market-card-actions" role="group" aria-label="Acciones — EcoMercado UGR">
+                <a href="https://maps.google.com/?q=Campus+Fuentenueva+Granada" class="market-action market-action-map" target="_blank" rel="noopener" aria-label="Ver en Google Maps (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">🗺️</span>Ver en el mapa</a>
+                <a href="#pedido-form" class="market-action market-action-order" aria-label="Hacer pedido anticipado"><span class="market-action-icon" aria-hidden="true">🛒</span>Hacer mi pedido</a>
+                <a href="https://t.me/" class="market-action market-action-telegram" target="_blank" rel="noopener" aria-label="Grupo Telegram (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">✈️</span>Unirme al grupo</a>
+                <a href="https://wa.me/" class="market-action market-action-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">💬</span>WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="market-card" data-tags="intersemanal campus" aria-labelledby="market-2-name">
+            <div class="market-card-img">
+              <img src="img/mercado-campesinos.jpg" alt="Productora entregando una cesta de verduras ecológicas en la Facultad de Ciencias" loading="lazy" width="600" height="200" />
+              <!-- img/mercado-campesinos.jpg : productora con cesta de hortalizas frescas, exterior Facultad de Ciencias al fondo. Formato 3:1 -->
+              <div class="market-badge" aria-label="Horario: miércoles de 10 a 13 h">📅 Miércoles 10:00–13:00 h</div>
+            </div>
+            <div class="market-card-body">
+              <h3 class="market-card-name" id="market-2-name">Directo de Campesinos</h3>
+              <p class="market-card-location"><span aria-hidden="true">📍</span><span>Facultad de Ciencias, Campus Fuentenueva</span></p>
+              <p class="market-card-products">Reparto intersemanal de cestas personalizadas de verdura y fruta ecológica. Pedido anticipado obligatorio hasta el lunes a las 20:00 h.</p>
+              <div class="market-card-actions" role="group" aria-label="Acciones — Directo de Campesinos">
+                <a href="https://maps.google.com/?q=Facultad+Ciencias+UGR+Granada" class="market-action market-action-map" target="_blank" rel="noopener" aria-label="Ver en Google Maps (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">🗺️</span>Ver en el mapa</a>
+                <a href="#pedido-form" class="market-action market-action-order" aria-label="Pedir cesta"><span class="market-action-icon" aria-hidden="true">🛒</span>Pedir mi cesta</a>
+                <a href="https://t.me/" class="market-action market-action-telegram" target="_blank" rel="noopener" aria-label="Telegram (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">✈️</span>Unirme al grupo</a>
+                <a href="https://wa.me/" class="market-action market-action-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">💬</span>WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="market-card" data-tags="sabado centro" aria-labelledby="market-3-name">
+            <div class="market-card-img">
+              <img src="img/mercado-realejo.jpg" alt="Mercado agroecológico en la Plaza del Realejo con productores y compradores" loading="lazy" width="600" height="200" />
+              <!-- img/mercado-realejo.jpg : puestos de productos ecológicos en la Plaza del Realejo con el entorno histórico de Granada al fondo. Formato 3:1 -->
+              <div class="market-badge" aria-label="Horario: sábados de 9 a 13 h">📅 Sábados 9:00–13:00 h</div>
+            </div>
+            <div class="market-card-body">
+              <h3 class="market-card-name" id="market-3-name">Mercado del Realejo</h3>
+              <p class="market-card-location"><span aria-hidden="true">📍</span><span>Plaza del Realejo, Granada centro</span></p>
+              <p class="market-card-products">Aceite, miel, embutidos artesanos, vino, cerveza artesanal y cosmética natural de productores del entorno de Granada. Sin pedido previo necesario.</p>
+              <div class="market-card-actions" role="group" aria-label="Acciones — Mercado del Realejo">
+                <a href="https://maps.google.com/?q=Plaza+del+Realejo+Granada" class="market-action market-action-map" target="_blank" rel="noopener" aria-label="Ver en Google Maps (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">🗺️</span>Ver en el mapa</a>
+                <a href="#pedido-form" class="market-action market-action-order" aria-label="Hacer pedido"><span class="market-action-icon" aria-hidden="true">🛒</span>Hacer mi pedido</a>
+                <a href="https://t.me/" class="market-action market-action-telegram" target="_blank" rel="noopener" aria-label="Telegram (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">✈️</span>Unirme al grupo</a>
+                <a href="https://wa.me/" class="market-action market-action-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp (nueva pestaña)"><span class="market-action-icon" aria-hidden="true">💬</span>WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <p id="markets-no-results" hidden style="grid-column:1/-1;text-align:center;color:var(--color-text-muted);padding:2rem 0;">
+            No hay mercados para este filtro. <button class="filter-btn" data-filter="all" style="margin-left:8px;">Ver todos</button>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTORES -->
+    <section class="section section-alt" id="productores" aria-labelledby="productores-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Quiénes nos traen los productos</span>
+          <h2 class="section-title" id="productores-title">Nuestros productores</h2>
+          <p class="section-desc">Pequeñas explotaciones agrícolas y artesanales de la provincia de Granada y Andalucía.</p>
+        </header>
+        <div class="producers-grid">
+          <div class="producer-card">
+            <div class="producer-img"><img src="img/productor-finca-vega.jpg" alt="Productora de Finca La Vega recogiendo verduras ecológicas en el campo" loading="lazy" width="300" height="150" /></div>
+            <!-- img/productor-finca-vega.jpg : productor/a en el campo con producto visible. Formato 2:1 -->
+            <div class="producer-info"><p class="producer-name">Finca La Vega</p><p class="producer-type">Verdura y fruta ecológica</p></div>
+          </div>
+          <div class="producer-card">
+            <div class="producer-img"><img src="img/productor-molino.jpg" alt="Panadero artesano con hogazas recién horneadas en El Molino Artesano" loading="lazy" width="300" height="150" /></div>
+            <!-- img/productor-molino.jpg : panadero en su obrador con panes rústicos. Formato 2:1, iluminación cálida -->
+            <div class="producer-info"><p class="producer-name">El Molino Artesano</p><p class="producer-type">Pan y repostería</p></div>
+          </div>
+          <div class="producer-card">
+            <div class="producer-img"><img src="img/productor-queseria.jpg" alt="Variedad de quesos artesanos de Sierra Nevada sobre tabla de madera" loading="lazy" width="300" height="150" /></div>
+            <!-- img/productor-queseria.jpg : quesos artesanos en tabla o en quesería. Formato 2:1 -->
+            <div class="producer-info"><p class="producer-name">Quesería Sierra Nevada</p><p class="producer-type">Quesos artesanos</p></div>
+          </div>
+          <div class="producer-card">
+            <div class="producer-img"><img src="img/productor-apiario.jpg" alt="Apicultor del Apiario del Sur revisando colmenas con traje protector" loading="lazy" width="300" height="150" /></div>
+            <!-- img/productor-apiario.jpg : apicultor con traje junto a colmenas en campo abierto. Formato 2:1 -->
+            <div class="producer-info"><p class="producer-name">Apiario del Sur</p><p class="producer-type">Miel y productos de colmena</p></div>
+          </div>
+          <div class="producer-card">
+            <div class="producer-img"><img src="img/productor-aceite.jpg" alt="Botellas de aceite de oliva virgen extra de Aceites Alpujarra con olivar al fondo" loading="lazy" width="300" height="150" /></div>
+            <!-- img/productor-aceite.jpg : botellas AOVE con olivar, luz dorada. Formato 2:1 -->
+            <div class="producer-info"><p class="producer-name">Aceites Alpujarra</p><p class="producer-type">Aceite de oliva virgen extra</p></div>
+          </div>
+          <div class="producer-card">
+            <div class="producer-img"><img src="img/productor-huerta.jpg" alt="Tarros de conservas y mermeladas artesanas de Huerta del Genil sobre mesa rústica" loading="lazy" width="300" height="150" /></div>
+            <!-- img/productor-huerta.jpg : conservas y mermeladas en tarros de cristal con colores vivos. Formato 2:1 -->
+            <div class="producer-info"><p class="producer-name">Valle&Vega</p><p class="producer-type">Conservas y mermeladas</p></div>
+          </div>
+        </div>
+        <div class="text-center mt-6">
+          <a href="#unete" class="btn btn-outline-primary">¿Eres productor? Únete al EcoMercado →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALENDARIO DE TEMPORADA -->
+    <section class="section" id="temporada" aria-labelledby="temporada-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Qué encontrarás esta semana</span>
+          <h2 class="section-title" id="temporada-title">Productos de temporada</h2>
+          <p class="section-desc">Compramos lo que está en su punto. Mejor sabor, más nutrientes y apoyo directo al productor local.</p>
+        </header>
+        <div class="season-grid">
+
+          <div class="season-card">
+            <div class="season-card-img">
+              <img src="img/temporada-tomate.jpg" alt="Tomates maduros de temporada en puesto del mercado agroecológico" loading="lazy" width="400" height="160" />
+              <!-- img/temporada-tomate.jpg : tomates frescos y coloridos en cesta o puesto, tonos rojos y verdes vibrantes. Formato 5:2 -->
+              <span class="season-tag">En temporada</span>
+            </div>
+            <div class="season-card-body">
+              <p class="season-card-name">Tomate de verano</p>
+              <p class="season-card-desc">Variedades de ensalada y cherry. Ideal para gazpacho y salmorejo andaluz.</p>
+              <div class="season-months" aria-label="Meses de disponibilidad">
+                <span class="season-month">En</span><span class="season-month">Fe</span><span class="season-month">Ma</span><span class="season-month">Ab</span><span class="season-month">My</span><span class="season-month active">Jn</span><span class="season-month active">Jl</span><span class="season-month active">Ag</span><span class="season-month active">Se</span><span class="season-month">Oc</span><span class="season-month">No</span><span class="season-month">Di</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="season-card">
+            <div class="season-card-img">
+              <img src="img/temporada-melocoton.jpg" alt="Melocotones frescos de la Vega de Granada en cestilla" loading="lazy" width="400" height="160" />
+              <!-- img/temporada-melocoton.jpg : melocotones frescos y jugosos en cesta, tonos anaranjados cálidos. Formato 5:2 -->
+              <span class="season-tag">En temporada</span>
+            </div>
+            <div class="season-card-body">
+              <p class="season-card-name">Melocotón de la Vega</p>
+              <p class="season-card-desc">Fruta de hueso de la Vega de Granada. Dulce y muy aromática, recién recogida.</p>
+              <div class="season-months" aria-label="Meses de disponibilidad">
+                <span class="season-month">En</span><span class="season-month">Fe</span><span class="season-month">Ma</span><span class="season-month">Ab</span><span class="season-month">My</span><span class="season-month active">Jn</span><span class="season-month active">Jl</span><span class="season-month active">Ag</span><span class="season-month">Se</span><span class="season-month">Oc</span><span class="season-month">No</span><span class="season-month">Di</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="season-card">
+            <div class="season-card-img">
+              <img src="img/temporada-berenjena.jpg" alt="Berenjenas ecológicas recién recogidas de la huerta" loading="lazy" width="400" height="160" />
+              <!-- img/temporada-berenjena.jpg : berenjenas brillantes en cestilla o puesto, tonos morados y verdes. Formato 5:2 -->
+              <span class="season-tag">En temporada</span>
+            </div>
+            <div class="season-card-body">
+              <p class="season-card-name">Berenjena ecológica</p>
+              <p class="season-card-desc">Excelente para berenjenas con miel de caña, receta típica granadina. Sin pesticidas.</p>
+              <div class="season-months" aria-label="Meses de disponibilidad">
+                <span class="season-month">En</span><span class="season-month">Fe</span><span class="season-month">Ma</span><span class="season-month">Ab</span><span class="season-month">My</span><span class="season-month active">Jn</span><span class="season-month active">Jl</span><span class="season-month active">Ag</span><span class="season-month active">Se</span><span class="season-month active">Oc</span><span class="season-month">No</span><span class="season-month">Di</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="season-card">
+            <div class="season-card-img">
+              <img src="img/temporada-miel.jpg" alt="Tarro de miel artesana con panal visible al fondo" loading="lazy" width="400" height="160" />
+              <!-- img/temporada-miel.jpg : tarro de miel dorada con luz cálida, panal visible. Formato 5:2 -->
+              <span class="season-tag">Todo el año</span>
+            </div>
+            <div class="season-card-body">
+              <p class="season-card-name">Miel de sierra</p>
+              <p class="season-card-desc">Miel multifloral de Sierra Nevada. Distintas variedades según la floración de cada estación.</p>
+              <div class="season-months" aria-label="Disponibilidad todo el año">
+                <span class="season-month active">En</span><span class="season-month active">Fe</span><span class="season-month active">Ma</span><span class="season-month active">Ab</span><span class="season-month active">My</span><span class="season-month active">Jn</span><span class="season-month active">Jl</span><span class="season-month active">Ag</span><span class="season-month active">Se</span><span class="season-month active">Oc</span><span class="season-month active">No</span><span class="season-month active">Di</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section section-alt" id="galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label">Así es el EcoMercado</span>
+          <h2 class="section-title" id="galeria-title">Ediciones anteriores</h2>
+          <p class="section-desc">Cada sábado, productores y consumidores construyen juntos una alternativa al consumo industrial.</p>
+        </header>
+        <div class="gallery-grid" aria-label="Galería fotográfica del EcoMercado UGR">
+          <div class="gallery-item">
+            <img src="img/galeria-1.jpg" alt="Vista general del EcoMercado UGR con asistentes paseando entre puestos" loading="lazy" width="560" height="420" />
+            <!-- img/galeria-1.jpg : plano general del mercado con ambiente de gente, Campus Fuentenueva. Formato 4:3 -->
+            <p class="gallery-caption">Edición mayo 2026 — Campus Fuentenueva</p>
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria-2.jpg" alt="Productora mostrando sus verduras a una compradora en su puesto del mercado" loading="lazy" width="560" height="420" />
+            <!-- img/galeria-2.jpg : interacción cercana productor-consumidor. Formato 4:3 -->
+            <p class="gallery-caption">Trato directo con el productor</p>
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria-3.jpg" alt="Cesta llena de productos ecológicos variados: verduras, frutas y conservas" loading="lazy" width="560" height="420" />
+            <!-- img/galeria-3.jpg : cesta o mesa con variedad de productos ecológicos, colores vivos. Formato 4:3 -->
+            <p class="gallery-caption">Productos frescos y de proximidad</p>
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria-4.jpg" alt="Familias participando en una actividad de educación alimentaria en el mercado" loading="lazy" width="560" height="420" />
+            <!-- img/galeria-4.jpg : actividad educativa o familiar en el mercado. Formato 4:3 -->
+            <p class="gallery-caption">Actividades educativas y familiares</p>
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria-5.jpg" alt="Puesto de panadería artesana con hogazas y panes de cereales integrales" loading="lazy" width="560" height="420" />
+            <!-- img/galeria-5.jpg : exposición de panes artesanos, abundante y atractiva. Formato 4:3 -->
+            <p class="gallery-caption">Panadería artesana de cereales locales</p>
+          </div>
+          <div class="gallery-item">
+            <img src="img/galeria-6.jpg" alt="Asistentes al EcoMercado con bolsas de tela y productos recién comprados" loading="lazy" width="560" height="420" />
+            <!-- img/galeria-6.jpg : compradores con bolsas llenas, ambiente positivo y luminoso. Formato 4:3 -->
+            <p class="gallery-caption">La comunidad universitaria en acción</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÚNETE -->
+    <section class="section" id="unete" aria-labelledby="unete-title">
+      <div class="container">
+        <div class="join-section" id="pedido-form">
+          <div>
+            <h2 class="join-title" id="unete-title">¿Eres productor o productora?</h2>
+            <p class="join-desc">Únete a nuestra red y lleva tus productos directamente a la comunidad universitaria de Granada. Nos pondremos en contacto en menos de 48 horas.</p>
+            <ul class="join-benefits">
+              <li><img src="img/icon-check.png" alt="" aria-hidden="true" class="benefit-icon" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'✓',style:'color:#FFC87A;font-weight:bold;margin-right:4px'}))" />Sin cuota de inscripción</li>
+              <!-- img/icon-check.png : icono check/verificación en color claro o blanco, 20×20px PNG transparente -->
+              <li><img src="img/icon-check.png" alt="" aria-hidden="true" class="benefit-icon" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'✓',style:'color:#FFC87A;font-weight:bold;margin-right:4px'}))" />Apoyo en visibilidad y comunicación</li>
+              <li><img src="img/icon-check.png" alt="" aria-hidden="true" class="benefit-icon" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'✓',style:'color:#FFC87A;font-weight:bold;margin-right:4px'}))" />Comunidad comprometida con el consumo local</li>
+            </ul>
+          </div>
+          <form class="join-form" aria-label="Formulario de solicitud para productores" novalidate>
+            <div class="form-field">
+              <label class="form-label" for="prod-nombre">Nombre o nombre de la explotación *</label>
+              <input class="form-input" type="text" id="prod-nombre" name="nombre" required placeholder="Ej: Finca Los Olivos" autocomplete="organization" />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="prod-email">Correo electrónico *</label>
+              <input class="form-input" type="email" id="prod-email" name="email" required placeholder="tu@correo.com" autocomplete="email" />
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="prod-tipo">Tipo de producto principal</label>
+              <select class="form-select form-input" id="prod-tipo" name="tipo">
+                <option value="">Selecciona una opción</option>
+                <option value="verdura">Verdura y fruta</option>
+                <option value="lacteos">Lácteos y quesos</option>
+                <option value="panaderia">Panadería y repostería</option>
+                <option value="aceite">Aceite y conservas</option>
+                <option value="miel">Miel y apicultura</option>
+                <option value="otros">Otros</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label class="form-label" for="prod-mensaje">Cuéntanos sobre tu producción</label>
+              <textarea class="form-textarea" id="prod-mensaje" name="mensaje" placeholder="Describe brevemente qué produces y dónde estás ubicado/a"></textarea>
+            </div>
+            <button type="submit" class="btn btn-form">Enviar solicitud</button>
+            <p class="form-legal">Al enviar este formulario aceptas nuestra política de privacidad. Tus datos solo se usarán para gestionar tu solicitud.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" aria-label="Pie de página">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">
+            <img src="img/logo-ecomercado-blanco.png" alt="" aria-hidden="true" width="28" height="28" onerror="this.style.display='none'" />
+            <!-- img/logo-ecomercado-blanco.png : logotipo EcoMercado en versión blanca/negativa -->
+            <span><span class="eco">Eco</span>Mercado UGR</span>
+          </p>
+          <p class="footer-desc">Mercado agroecológico de la Universidad de Granada. Conectamos productores locales con la comunidad universitaria a través del consumo responsable y de proximidad.</p>
+          <a href="mailto:ecomercado@ugr.es" class="btn btn-sm btn-outline-white" >Escríbenos</a>
+        </div>
+        <nav aria-label="Mercados">
+          <p class="footer-col-title">Mercados</p>
+          <ul class="footer-links">
+            <li><a href="#mercados">EcoMercado UGR</a></li>
+            <li><a href="#mercados">Directo de Campesinos</a></li>
+            <li><a href="#mercados">Mercado del Realejo</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Información">
+          <p class="footer-col-title">Información</p>
+          <ul class="footer-links">
+            <li><a href="#como-funciona">Cómo funciona</a></li>
+            <li><a href="#temporada">Productos de temporada</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#productores">Productores</a></li>
+            <li><a href="#unete">Únete como productor</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          <span>© 2026 EcoMercado UGR — Universidad de Granada</span>
+          <span>Iniciativa de consumo local y agroecológico</span>
+        </div>
+        <ul class="footer-legal-links" aria-label="Enlaces legales y de accesibilidad">
+          <li><a href="#aviso-legal">Aviso Legal</a></li>
+          <li><a href="#privacidad">Política de Privacidad</a></li>
+          <li><a href="#cookies">Política de Cookies</a></li>
+          <li><a href="#accesibilidad">Accesibilidad</a></li>
+        </ul>
+      </div>
+  </footer>
+
+  <a href="#main-content" class="back-to-top" id="back-to-top" aria-label="Volver al inicio de la página">↑</a>
+
+  <!-- BANNER DE COOKIES (Legalmente obligatorio) -->
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-desc" hidden>
+    <div class="cookie-content">
+      <h2 id="cookie-title" class="cookie-title">Uso de cookies</h2>
+      <p id="cookie-desc">Utilizamos cookies propias y de terceros para fines analíticos, de accesibilidad y para mostrarte contenido personalizado. <a href="#cookies">Más información en nuestra Política de Cookies</a>.</p>
+    </div>
+    <div class="cookie-actions">
+      <button id="btn-accept-cookies" class="btn btn-sm btn-primary">Aceptar todas</button>
+      <button id="btn-reject-cookies" class="btn btn-sm btn-outline-primary">Rechazar no esenciales</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
