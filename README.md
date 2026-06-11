@@ -1,19 +1,15 @@
 # EcoMercado UGR — Mockup de propuesta web
-
 **Trabajo Final · Diseño de Interfaces de Usuario 2025/26**  
 E.T.S.I. Informática y de Telecomunicaciones · Universidad de Granada
 
 ---
 
-
 ## Autor
-
 Tomás Serrano · DIU 2025/26 · Universidad de Granada
 
 ---
 
 ## Descripción
-
 Propuesta de rediseño web para el **EcoMercado UGR**, el mercado agroecológico 
 universitario del Campus Fuentenueva de la Universidad de Granada. Este repositorio 
 contiene el prototipo de alta fidelidad (mockup) desarrollado como parte del caso 
@@ -27,8 +23,7 @@ heurística (Nielsen), WCAG 2.2 y metodología Atomic Design.
 
 ---
 
-## Nueva propuesta de mockup diseñado
-
+## Mockup desplegado
 🔗 **[Ver mockup desplegado](https://tomaas05.github.io/Trabajo-final-DIU---Tomas/)**  
 
 ---
@@ -47,17 +42,14 @@ heurística (Nielsen), WCAG 2.2 y metodología Atomic Design.
 ---
 
 ## Memoria del proyecto
-
 La memoria completa del trabajo (análisis heurístico, evaluación de accesibilidad, 
 cuestionario SUS, insights y propuesta de valor) está disponible en el archivo 
-`memoria.pdf` de este repositorio.
+[`Trabajo_final_DIU.pdf`](./Trabajo_final_DIU.pdf) de este repositorio.
 
 ---
 
 ## Tecnologías
-
 - HTML5 semántico
 - CSS3 (custom properties, Grid, Flexbox)
 - JavaScript vanilla (sin dependencias)
 - Google Fonts: Inter + Playfair Display
-
