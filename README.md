@@ -5,6 +5,13 @@ E.T.S.I. Informática y de Telecomunicaciones · Universidad de Granada
 
 ---
 
+
+## Autor
+
+Tomás Serrano · DIU 2025/26 · Universidad de Granada
+
+---
+
 ## Descripción
 
 Propuesta de rediseño web para el **EcoMercado UGR**, el mercado agroecológico 
@@ -20,7 +27,7 @@ heurística (Nielsen), WCAG 2.2 y metodología Atomic Design.
 
 ---
 
-## Demo en vivo
+## Nueva propuesta de mockup diseñado
 
 🔗 **[Ver mockup desplegado](https://tomaas05.github.io/Trabajo-final-DIU---Tomas/)**  
 
@@ -45,9 +52,6 @@ La memoria completa del trabajo (análisis heurístico, evaluación de accesibil
 cuestionario SUS, insights y propuesta de valor) está disponible en el archivo 
 `memoria.pdf` de este repositorio.
 
-El resultado del mockup final está disponible en:  
-🔗 **[https://TU_USUARIO.github.io/ecomercado-ugr/](https://TU_USUARIO.github.io/ecomercado-ugr/)**
-
 ---
 
 ## Tecnologías
@@ -57,8 +61,3 @@ El resultado del mockup final está disponible en:
 - JavaScript vanilla (sin dependencias)
 - Google Fonts: Inter + Playfair Display
 
----
-
-## Autor
-
-Tomás Serrano · DIU 2025/26 · Universidad de Granada
