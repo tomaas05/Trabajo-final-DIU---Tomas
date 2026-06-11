@@ -22,42 +22,7 @@ heurística (Nielsen), WCAG 2.2 y metodología Atomic Design.
 
 ## Demo en vivo
 
-🔗 **[Ver mockup desplegado](https://TU_USUARIO.github.io/ecomercado-ugr/)**  
-*(enlace disponible tras despliegue en GitHub Pages)*
-
----
-
-## Estructura del repositorio
-
-.
-├── img
-│   ├── galeria-1.jpg
-│   ├── galeria-2.jpg
-│   ├── galeria-3.jpg
-│   ├── galeria-4.jpg
-│   ├── galeria-5.jpg
-│   ├── galeria-6.jpg
-│   ├── hero-mercado.jpg
-│   ├── mercado-campesinos.jpg
-│   ├── mercado-campus.jpg
-│   ├── mercado-realejo.jpg
-│   ├── productor-aceite.jpg
-│   ├── productor-apiario.jpg
-│   ├── productor-finca-vega.jpg
-│   ├── productor-huerta.jpg
-│   ├── productor-molino.jpg
-│   ├── productor-queseria.jpg
-│   ├── temporada-berenjena.jpg
-│   ├── temporada-melocoton.jpg
-│   ├── temporada-miel.jpg
-│   └── temporada-tomate.jpg
-├── index.html
-├── main.js
-├── README.md
-└── style.css
-
-2 directories, 24 files
-
+🔗 **[Ver mockup desplegado](https://tomaas05.github.io/Trabajo-final-DIU---Tomas/)**  
 
 ---
 
